@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>pl.pakula.znajdzto</OriginalElement>
+  <nodes>
+    <node x="803.1875" y="1114.0">pl.pakula.znajdzto.Info</node>
+    <node x="0.0" y="0.0">pl.pakula.znajdzto.CoDalej</node>
+    <node x="267.16666666666663" y="436.0">pl.pakula.znajdzto.Game</node>
+    <node x="481.1875" y="1114.0">pl.pakula.znajdzto.Warning</node>
+    <node x="593.5624999999999" y="2793.0">pl.pakula.znajdzto.desktop</node>
+    <node x="679.0625" y="2092.0">pl.pakula.znajdzto.PodajPlec</node>
+    <node x="985.3116185897436" y="11.0">pl.pakula.znajdzto.EndScreen</node>
+    <node x="293.0" y="22.0">pl.pakula.znajdzto.GameFigure</node>
+    <node x="627.1875" y="1568.0">pl.pakula.znajdzto.MainMenuScreen</node>
+    <node x="622.9166666666666" y="678.0">pl.pakula.znajdzto.ClickObject</node>
+    <node x="545.0624999999999" y="2512.0">pl.pakula.znajdzto.ZnajdzTo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pl.pakula.znajdzto.Game" target="pl.pakula.znajdzto.ZnajdzTo">
+      <point x="-114.0" y="314.0" />
+      <point x="295.66666666666663" y="1094.0" />
+      <point x="322.45555798368304" y="1094.0" />
+      <point x="322.45555798368304" y="2472.0" />
+      <point x="586.2291666666666" y="2472.0" />
+      <point x="-82.33333333333331" y="-115.5" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.Game" target="pl.pakula.znajdzto.MainMenuScreen">
+      <point x="57.0" y="314.0" />
+      <point x="466.66666666666663" y="1094.0" />
+      <point x="411.89065413752917" y="1094.0" />
+      <point x="411.89065413752917" y="1508.0" />
+      <point x="692.4147727272727" y="1508.0" />
+      <point x="-78.27272727272725" y="-237.0" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.desktop" target="pl.pakula.znajdzto.ZnajdzTo">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="115.5" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.MainMenuScreen" target="pl.pakula.znajdzto.Warning">
+      <point x="-52.18181818181819" y="-237.0" />
+      <point x="718.5056818181818" y="1498.0" />
+      <point x="655.5625" y="1498.0" />
+      <point x="34.875" y="182.0" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.Warning" target="pl.pakula.znajdzto.MainMenuScreen">
+      <point x="104.625" y="182.0" />
+      <point x="725.3125" y="1548.0" />
+      <point x="744.5965909090909" y="1548.0" />
+      <point x="-26.090909090909122" y="-237.0" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.ZnajdzTo" target="pl.pakula.znajdzto.PodajPlec">
+      <point x="16.466666666666754" y="-115.5" />
+      <point x="685.0291666666667" y="2432.0" />
+      <point x="724.5625" y="2432.0" />
+      <point x="-91.0" y="160.0" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.Game" target="pl.pakula.znajdzto.CoDalej">
+      <point x="-118.75" y="-314.0" />
+      <point x="290.91666666666663" y="416.0" />
+      <point x="191.0999999999999" y="416.0" />
+      <point x="54.59999999999991" y="193.0" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.MainMenuScreen" target="pl.pakula.znajdzto.PodajPlec">
+      <point x="107.62500000000003" y="237.0" />
+      <point x="878.3125" y="2067.0" />
+      <point x="883.8125" y="2067.0" />
+      <point x="68.25000000000003" y="-160.0" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.Game" target="pl.pakula.znajdzto.EndScreen">
+      <point x="118.75" y="-314.0" />
+      <point x="528.4166666666666" y="416.0" />
+      <point x="1019.4366185897436" y="416.0" />
+      <point x="-102.375" y="182.0" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.Warning" target="pl.pakula.znajdzto.ClickObject">
+      <point x="-34.875" y="-182.0" />
+      <point x="585.8125" y="1094.0" />
+      <point x="640.5833333333333" y="1094.0" />
+      <point x="-141.33333333333337" y="72.0" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.Info" target="pl.pakula.znajdzto.ZnajdzTo">
+      <point x="104.625" y="182.0" />
+      <point x="1047.3125" y="1538.0" />
+      <point x="1045.0320585664335" y="1538.0" />
+      <point x="1045.0320585664335" y="2472.0" />
+      <point x="750.8958333333334" y="2472.0" />
+      <point x="82.33333333333343" y="-115.5" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.MainMenuScreen" target="pl.pakula.znajdzto.ZnajdzTo">
+      <point x="-107.625" y="237.0" />
+      <point x="663.0625" y="2067.0" />
+      <point x="657.5625" y="2067.0" />
+      <point x="657.5625" y="2492.0" />
+      <point x="652.0958333333333" y="2492.0" />
+      <point x="-16.46666666666664" y="-115.5" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.MainMenuScreen" target="pl.pakula.znajdzto.ClickObject">
+      <point x="52.18181818181819" y="-237.0" />
+      <point x="822.8693181818181" y="1538.0" />
+      <point x="792.6875" y="1538.0" />
+      <point x="792.6875" y="1094.0" />
+      <point x="817.25" y="1094.0" />
+      <point x="35.33333333333337" y="72.0" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.PodajPlec" target="pl.pakula.znajdzto.MainMenuScreen">
+      <point x="-68.25" y="-160.0" />
+      <point x="747.3125" y="2067.0" />
+      <point x="806.5625" y="2067.0" />
+      <point x="35.875" y="237.0" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.CoDalej" target="pl.pakula.znajdzto.MainMenuScreen">
+      <point x="0.0" y="193.0" />
+      <point x="136.5" y="416.0" />
+      <point x="92.89999999999998" y="416.0" />
+      <point x="92.89999999999998" y="1528.0" />
+      <point x="640.2329545454545" y="1528.0" />
+      <point x="-130.45454545454544" y="-237.0" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.MainMenuScreen" target="pl.pakula.znajdzto.Game">
+      <point x="-104.36363636363637" y="-237.0" />
+      <point x="666.3238636363636" y="1518.0" />
+      <point x="400.89065413752917" y="1518.0" />
+      <point x="400.89065413752917" y="1084.0" />
+      <point x="409.66666666666663" y="1084.0" />
+      <point x="0.0" y="314.0" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.MainMenuScreen" target="pl.pakula.znajdzto.Info">
+      <point x="78.27272727272725" y="-237.0" />
+      <point x="848.9602272727273" y="1548.0" />
+      <point x="838.0625" y="1548.0" />
+      <point x="-104.625" y="182.0" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.Info" target="pl.pakula.znajdzto.MainMenuScreen">
+      <point x="-34.875" y="182.0" />
+      <point x="907.8125" y="1538.0" />
+      <point x="875.0511363636364" y="1538.0" />
+      <point x="104.3636363636364" y="-237.0" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.CoDalej" target="pl.pakula.znajdzto.Game">
+      <point x="109.20000000000005" y="193.0" />
+      <point x="245.70000000000005" y="406.0" />
+      <point x="338.41666666666663" y="406.0" />
+      <point x="-71.25" y="-314.0" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.EndScreen" target="pl.pakula.znajdzto.MainMenuScreen">
+      <point x="-34.125" y="182.0" />
+      <point x="1087.6866185897436" y="416.0" />
+      <point x="1092.6875" y="416.0" />
+      <point x="1092.6875" y="1548.0" />
+      <point x="901.1420454545455" y="1548.0" />
+      <point x="130.45454545454552" y="-237.0" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.Warning" target="pl.pakula.znajdzto.Game">
+      <point x="-104.625" y="-182.0" />
+      <point x="516.0625" y="1094.0" />
+      <point x="523.6666666666666" y="1094.0" />
+      <point x="114.0" y="314.0" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.Game" target="pl.pakula.znajdzto.GameFigure">
+      <point x="-23.75" y="-314.0" />
+      <point x="385.91666666666663" y="416.0" />
+      <point x="351.33333333333337" y="416.0" />
+      <point x="-116.66666666666663" y="171.0" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.EndScreen" target="pl.pakula.znajdzto.ZnajdzTo">
+      <point x="34.125" y="182.0" />
+      <point x="1155.9366185897436" y="406.0" />
+      <point x="1127.3116185897436" y="406.0" />
+      <point x="1127.3116185897436" y="2482.0" />
+      <point x="767.3625" y="2482.0" />
+      <point x="98.80000000000001" y="-115.5" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.PodajPlec" target="pl.pakula.znajdzto.ZnajdzTo">
+      <point x="0.0" y="160.0" />
+      <point x="815.5625" y="2442.0" />
+      <point x="701.4958333333333" y="2442.0" />
+      <point x="32.93333333333334" y="-115.5" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.CoDalej" target="pl.pakula.znajdzto.ZnajdzTo">
+      <point x="-54.59999999999991" y="193.0" />
+      <point x="81.89999999999998" y="2482.0" />
+      <point x="569.7624999999999" y="2482.0" />
+      <point x="-98.79999999999995" y="-115.5" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.Warning" target="pl.pakula.znajdzto.ZnajdzTo">
+      <point x="-34.875" y="182.0" />
+      <point x="585.8125" y="1548.0" />
+      <point x="514.2263913170164" y="1548.0" />
+      <point x="514.2263913170164" y="2442.0" />
+      <point x="635.6291666666666" y="2442.0" />
+      <point x="-32.93333333333328" y="-115.5" />
+    </edge>
+    <edge source="pl.pakula.znajdzto.Info" target="pl.pakula.znajdzto.ClickObject">
+      <point x="-93.0" y="-182.0" />
+      <point x="849.6875" y="1094.0" />
+      <point x="852.5833333333334" y="1094.0" />
+      <point x="70.66666666666674" y="72.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="506.5" y="2485.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
